@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    width: fit-content;
+    margin: 0 10px 0 10px;
+}
+
+.container > input {
+    padding: 0 3px 0 5px;
+    border: none;
+    border-bottom: 1px solid var(--grey-5);
+    width: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+}
+
+.container > input:focus {
+
+}
+
+.container > input:hover {
+    border-bottom: 1px solid var(--green);
+}
+
+.container > input:focus {
+    color: var(--green);
+    border-bottom: 1px solid var(--green);
+}
+
+.container > div {
+    width: 50px;
+}
